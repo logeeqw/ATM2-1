@@ -1,0 +1,22 @@
+{
+  "name": "Quiz2",
+  "short_name": "Quiz",
+  "lang": "en-US",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "public/images/192x192.png",
+      "size": "192x192",
+      "type": "public/image/png"
+    },
+    {
+      "src": "public/images/512x512png",
+      "size": "512x512",
+      "type": "public/images/png"
+    }
+  ],
+  "theme_color": "#1779ba",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait"
+}

@@ -12,66 +12,66 @@ balance = 1.34;
 
 document.getElementById(`withdraw`).addEventListener("click", function withdraw() {
 
-    minus = Number(PROMPT.question(`How much do you want to withdraw?  `));
+    minus = Number(window.prompt(`How much do you want to withdraw?  `));
 
     balance -= minus;
 
-    console.log(`Your new balance is ${balance}`);
+    window.alert(`Your new balance is ${balance}`);
 });
 
-document.getElementById(`b&s`).addEventListener("click", function balance() {
+document.getElementById(`b&s`).addEventListener("click", function getBalance() {
 
-    console.log(`${balance}`)
+    window.alert(`${balance}`)
 });
 
-document.getElementById(`acct`).addEventListener("click", function balance() {
+document.getElementById(`acct`).addEventListener("click", function getBalance() {
 
-    console.log(`${balance}`)
+   window.alert(`Your balance is ${balance}`)
 });
 
 document.getElementById(`transfer`).addEventListener("click", function transfer(){
 
-    Number(PROMPT.question(`Enter the account number you would like to transfer from/to  `));
+    Number(window.prompt(`Enter the account number you would like to transfer from/to  `));
     
-    Number(PROMPT.question(`How much would like to transfer  `));
+    Number(window.prompt(`How much would like to transfer  `));
 });
 
 document.getElementById(`deposit`).addEventListener("click", function deposit()  {
 
-    add = Number(PROMPT.question(`How much would you like to deposit?  `));
+    add = Number(window.prompt(`How much would you like to deposit?  `));
 
     balance += add;
 
-    console.log(`Your new balance is ${balance}`)
+    window.alert(`Your new balance is ${balance}`)
 });
 
 document.getElementById(`donate`).addEventListener("click", function deposit()  {
 
-    donate = Number(PROMPT.question(`How much would you like to donate?  `));
+    donate = Number(window.prompt(`How much would you like to donate?  `));
 
-    PROMPT.question(`where would you like to donate?  `);
+    window.prompt(`where would you like to donate?  `);
 
     balance -= donate;
 
-    console.log(`Your new balance is ${balance}`)
+    window.alert(`Your new balance is ${balance}`)
 });
 
 document.getElementById(`depcash`).addEventListener("click", function deposit()  {
 
-    console.log(`You must go to your local bank to do this.`)
+    window.alert(`You must go to your local bank to do this.`)
 });
 
 document.getElementById(`return`).addEventListener("click", function deposit()  {
 
-    console.log(`You must go to your local bank to do this.`)
+    window.alert(`You must go to your local bank to do this.`)
 });
 
 document.getElementById(`deposit`).addEventListener("click", function deposit()  {
 
-    add = PROMPT.question(`How much would you like to deposit?  `);
+    add = window.prompt(`How much would you like to deposit?  `);
 
     balance += add;
 
-    console.log(`Your new balance is ${balance}`)
+   window.alert(`Your new balance is ${balance}`)
 });
 
